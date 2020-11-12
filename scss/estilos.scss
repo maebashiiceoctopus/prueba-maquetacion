@@ -161,7 +161,7 @@ html{
                 }
                 }
             }
-            @media (min-width:300px) and (max-width:900px){
+            @media (max-width:768px) and (max-width:900px){
                 .card{
                     flex-direction: column;
                     .seccion-datos{
@@ -194,10 +194,44 @@ html{
         
       
     }
+    @media (max-width:600px){
+        .card{
+            .perfil-prof{
+                width: 85%;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                margin:0;
+                .cont-especialidades{
+                 width: 100%;
+                    .especialidades{
+                        display: flex;
+                        
+                        flex-direction: column;
+
+                p{
+                    margin: 1rem;
+                }
+    
+                      
+            }
+        }
+        
+        
+        
+    
     
 }
-    }
+
+
+
 }
+
+    
+}
+}
+    }
+} 
+
 
 
 

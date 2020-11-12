@@ -178,7 +178,7 @@ html body .contenedor-card .contenedor-cita .pedir-cita .button {
   font-weight: bold;
 }
 
-@media (min-width: 300px) and (max-width: 900px) {
+@media (max-width: 768px) and (max-width: 900px) {
   html body .contenedor-card .card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -200,6 +200,30 @@ html body .contenedor-card .contenedor-cita .pedir-cita .button {
     width: 85%;
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  html body .contenedor-card .card .perfil-prof {
+    width: 85%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0;
+  }
+  html body .contenedor-card .card .perfil-prof .cont-especialidades {
+    width: 100%;
+  }
+  html body .contenedor-card .card .perfil-prof .cont-especialidades .especialidades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .contenedor-card .card .perfil-prof .cont-especialidades .especialidades p {
+    margin: 1rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
