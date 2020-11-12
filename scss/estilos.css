@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /*10 px =1rem*/
+  line-height: normal;
+  background-color: #FAFAFA;
+}
+
+html body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html body .contenedor-card {
+  background-color: #FAFAFA;
+  margin: 2.5rem;
+  -webkit-box-shadow: 0 0 20px rgba(184, 178, 178, 0.5);
+          box-shadow: 0 0 20px rgba(184, 178, 178, 0.5);
+}
+
+html body .contenedor-card .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
+}
+
+html body .contenedor-card .card .seccion-datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  margin: 2.5rem;
+}
+
+html body .contenedor-card .card .seccion-datos img {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+html body .contenedor-card .card .seccion-datos h2 {
+  padding-top: 1rem;
+  text-align: center;
+  color: #0B0067;
+  text-decoration: underline;
+}
+
+html body .contenedor-card .card .seccion-datos h3 {
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #545454;
+}
+
+html body .contenedor-card .card .seccion-datos p {
+  margin-top: 1rem;
+  text-align: center;
+  color: #545454;
+  font-size: 1.2rem;
+}
+
+html body .contenedor-card .card .seccion-datos .icono {
+  color: #11A7AD;
+  width: 35%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+html body .contenedor-card .card .seccion-datos .icono-dir {
+  margin-right: .5rem;
+}
+
+html body .contenedor-card .card .perfil-prof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  margin: 2.5rem;
+  padding-top: 3rem;
+}
+
+html body .contenedor-card .card .perfil-prof p {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+html body .contenedor-card .card .perfil-prof .cont-especialidades {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+html body .contenedor-card .card .perfil-prof .cont-especialidades .especialidades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+html body .contenedor-card .card .perfil-prof .cont-especialidades .especialidades p {
+  background-color: #E0E0E0;
+  border-radius: 20px;
+  padding: 1.5rem 0 1.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+html body .contenedor-card .contenedor-cita {
+  border-top: 1px solid #E0E0E0;
+}
+
+html body .contenedor-card .contenedor-cita .pedir-cita {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html body .contenedor-card .contenedor-cita .pedir-cita p {
+  padding: .8rem;
+  margin: 0 auto;
+  color: #0B0067;
+}
+
+html body .contenedor-card .contenedor-cita .pedir-cita a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+html body .contenedor-card .contenedor-cita .pedir-cita .texto-pedir-cita {
+  margin: 0 auto;
+}
+
+html body .contenedor-card .contenedor-cita .pedir-cita .button {
+  background-color: #11A7AD;
+  border-radius: 15px;
+  padding: .8rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  html body .contenedor-card .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html body .contenedor-card .card .seccion-datos {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+  html body .contenedor-card .card .seccion-datos img {
+    width: 30%;
+  }
+  html body .contenedor-card .card .seccion-datos .icono {
+    text-align: center;
+  }
+  html body .contenedor-card .card .perfil-prof {
+    width: 85%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
